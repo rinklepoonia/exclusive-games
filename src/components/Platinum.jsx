@@ -31,7 +31,7 @@ function Platinum() {
                             </div>
 
                             <div className='position-relative mt-40 mb-4 btnn_hover cursor-pointer'>
-                                <button className='btnn btn-style color-white'>Comprar ahora</button>
+                                <button className='btnn btn-style color-white text-nowrap'>Comprar ahora</button>
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />
                                 </div>

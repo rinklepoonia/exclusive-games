@@ -25,6 +25,7 @@
   --fc-lightgrey: #8D8D8D;
   --fc-border-grey: #839091;
   --fc-border-black: #191919;
+  --bg-nav: #FFFFFF1A;
 
 }
 
@@ -104,7 +105,7 @@
 }
 
 .nav-bg {
-  background: #FFFFFF1A;
+  background: var(--bg-nav);
 }
 
 .gap-28 {
@@ -193,7 +194,7 @@
   }
 
   :root {
-    --fs-xl: 30px;
+    --fs-xl: 25px;
   }
 
   .w_100 {
@@ -939,6 +940,10 @@
 
 @media (max-width:576px) {
   .py-170 {
-    padding: 270px 0;
+    padding: 293px 0;
+  }
+
+  .ms-56 {
+    margin-left: 13px;
   }
 }
