@@ -11,6 +11,7 @@ import Image6 from '../assets/png/6slot-img.png'
 import { Arrowsvg } from './Icons'
 import { Arrowsvg2 } from './Icons'
 import { BtnSVG } from './Icons'
+import { BtnsvgWhite } from './Icons'
 
 
 function NuestrosAtributo3() {
@@ -64,9 +65,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -77,9 +78,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -90,9 +91,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -103,9 +104,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -116,9 +117,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -129,9 +130,9 @@ function NuestrosAtributo3() {
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
                             <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
                                 <button className='btnn btn4style color-white '>Jugar</button>
-                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
+                                <span className='btn-svg'>
+                                    <BtnsvgWhite />
+                                </span>
                             </div>
                         </div>
                     </div>

@@ -14,7 +14,7 @@ function Ofertas() {
                 <div className='sliver-box position-relative'>
                     <div className="row">
                         <div className="col-lg-7 py-77">
-                            <img className='silver-ellips' src={ImageEllips} alt="sliver-ellips" />
+                            <img className='silver-ellips d-lg-block d-none' src={ImageEllips} alt="sliver-ellips" />
                             <img className='w_100 position-relative' src={Imagesilver} alt="silver-card-img" />
                             <img className='mix-blend d-md-block d-none mt-3' src={ImageShadaw} alt="sliverCard-shadaw" />
                         </div>
