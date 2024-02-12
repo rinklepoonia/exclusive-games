@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header'
+import NuestraMisión2 from './components/NuestraMisión2'
+import NuestrosAtributo3 from './components/NuestrosAtributo3'
+import Potenciando from './components/Potenciando '
+import Elegirnos from './components/Elegirnos'
+import Másrazones from './components/Másrazones'
+import Ofertas from './components/Ofertas'
+import Luxury from './components/Luxury'
+import Platinum from './components/Platinum'
+import Accordion from './components/Accordion'
+import Ellos from './components/Ellos '
+import Lanza2 from './components/Lanza2'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-x-hidden '>
+      <Header />
+      < NuestraMisión2 />
+      < NuestrosAtributo3 />
+      < Potenciando />
+      < Elegirnos />
+      < Másrazones />
+      < Ofertas />
+      <Luxury />
+      < Platinum />
+      < Ellos />
+      < Accordion />
+      <Lanza2 />
+      < Footer />
+
+
+
+
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
