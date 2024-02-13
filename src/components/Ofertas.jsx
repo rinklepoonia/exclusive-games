@@ -9,7 +9,7 @@ function Ofertas() {
     return (
         <section id='ofertas' className='pt-150 pb-60 '>
             <div className="container">
-                <h2 className='heading color-white mx-auto text-center'>Nuestras ofertas</h2>
+                <h2 className='heading color-white mx-auto text-center mt-lg-0 mt-5'>Nuestras ofertas</h2>
                 <p className='text color-white mx-auto text-center pb-60'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className='sliver-box position-relative'>
                     <div className="row">
@@ -19,7 +19,7 @@ function Ofertas() {
                             <img className='mix-blend d-md-block d-none mt-3' src={ImageShadaw} alt="sliverCard-shadaw" />
                         </div>
                         <div className="col-lg-5">
-                            <p className='sub-text color-white '>Silver</p>
+                            <p className='sub-text color-white'>Silver</p>
                             <p className='text color-lightWhite  max-w-401 mb-4'>Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
                             <h2 className='heading color-white'>$5000</h2>
                             <div className='d-flex align-items-baseline gap-3'>
@@ -42,8 +42,8 @@ function Ofertas() {
                                 <Tiksvg />
                                 <p className='text color-lightWhite max-w-387'>Tiempo de creación 2 a 3 semanas</p>
                             </div>
-                            <div className='position-relative mt-5 btnn_hover cursor-pointer'>
-                                <button className='btnn btn-style color-white'>Comprar ahora</button>
+                            <div className='position-relative mt-5 cursor-pointer nav-btn-hover'>
+                                <button className='btnn btn-style butn color-white'>Comprar ahora</button>
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />
                                 </div>

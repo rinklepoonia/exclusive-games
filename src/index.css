@@ -83,11 +83,23 @@
   line-height: 26px;
 }
 
-.nav-btn-hover:hover {
+.butn {
+  padding: 13px 46px;
+  border-radius: 41px;
+  border: 1px solid var(--fc-white);
+  background: var(--fc-bgGreen);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.nav-btn-hover:hover .butn {
   background: var(--fc-white);
   border-radius: 41px;
   color: var(--fc-black);
-  transition: all 200ms linear;
+  transition: all 300ms linear;
+  box-shadow: 6px 2px 10px var(--fc-white);
 }
 
 .btn-style {
@@ -183,7 +195,6 @@
 
   input:checked~ul.menuList {
     right: 0;
-
   }
 
   .item-center {
@@ -194,7 +205,7 @@
   }
 
   :root {
-    --fs-xl: 25px;
+    --fs-xl: 30px;
   }
 
   .w_100 {
@@ -212,6 +223,14 @@
 
   .mb-60 {
     margin-bottom: 60px;
+  }
+
+  .bg_white {
+    background: white;
+  }
+
+  .align-text {
+    text-align: center;
   }
 }
 
@@ -253,9 +272,10 @@
   background: linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%);
 }
 
-.btn1-style:hover {
+.btnn-hover:hover .btnn {
+  transition: all 300ms linear;
+  color: var(--fc-white);
   background: linear-gradient(306.99deg, #7AF57A -13.72%, #51C8EF 102.02%);
-  transition: all 200ms linear;
 }
 
 /* ===============Nuestra Misión-section2============= */
@@ -294,15 +314,6 @@
   line-height: 58px;
 }
 
-.btnn-hover:hover {
-  opacity: 0.5;
-  transition: all 300ms linear;
-}
-
-.btnn-hover:hover .btnn {
-  color: var(--fc-white);
-}
-
 .gap-60 {
   gap: 60px;
 }
@@ -324,7 +335,7 @@
 .ellips2-position {
   position: absolute;
   right: -9%;
-  bottom: -21%;
+  bottom: -32%;
   z-index: 5 !important;
 }
 
@@ -337,11 +348,11 @@
 }
 
 .pt-150 {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .py-170 {
-  padding: 170px 0;
+  padding: 20px 0;
 }
 
 .max-w-235 {
@@ -353,7 +364,7 @@
 }
 
 .pb-60 {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .box {
@@ -375,6 +386,13 @@
   position: absolute;
   top: 22%;
   left: 56%;
+}
+
+.btn-hover:hover .btnn {
+  color: black;
+  background: var(--fc-white);
+  opacity: 0.5;
+  transition: all 200ms linear;
 }
 
 /* ==============slots=========== */
@@ -517,16 +535,12 @@
 }
 
 /*==============elegirnos-============= */
-.pt-241 {
-  padding-top: 300px;
-}
-
-.pb-109 {
-  padding-bottom: 200px;
+.py-50 {
+  padding: 50px 0;
 }
 
 .max-w-558 {
-  max-width: 558px;
+  max-width: 320px;
 }
 
 .max-w-526 {
@@ -845,6 +859,10 @@
     padding-top: 60px;
   }
 
+  .pb-60 {
+    padding-bottom: 60px;
+  }
+
   .py-77 {
     padding: 77px 0;
   }
@@ -906,6 +924,22 @@
     margin-bottom: 130px;
   }
 
+  .py-170 {
+    padding: 170px 0;
+  }
+
+  .pt-241 {
+    padding-top: 300px;
+  }
+
+  .pb-109 {
+    padding-bottom: 200px;
+  }
+
+  .max-w-558 {
+    max-width: 558px;
+  }
+
 }
 
 @media (max-width:768px) {
@@ -929,19 +963,24 @@
     line-height: 50px;
   }
 
-  .pb-60 {
-    padding-bottom: 20px;
-  }
-
   .heading {
     line-height: 40px;
+  }
+
+  .text_align {
+    text-align: center;
+  }
+
+  .mx_auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width:576px) {
-  .py-170 {
+  /* .py-170 {
     padding: 293px 0;
-  }
+  } */
 
   .ms-56 {
     margin-left: 13px;

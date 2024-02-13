@@ -21,16 +21,15 @@ function Platinum() {
                                 <Tiksvg />
                                 <p className='text color-lightWhite mb-0 '>Personalizable </p>
                             </div>
-
-                            <div className='position-relative mt-40 mb-4 btnn_hover cursor-pointer'>
-                                <button className='btnn btn-style color-white text-nowrap'>Comprar ahora</button>
+                            <div className='position-relative mt-40 mb-4 cursor-pointer nav-btn-hover'>
+                                <button className='btnn btn-style butn color-white text-nowrap'>Comprar ahora</button>
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-7 py-78">
-                            <img className='w-100' src={ImagePlatinum} alt="platinum-img" />
+                            <img className='w-100 position-relative' src={ImagePlatinum} alt="platinum-img" />
                         </div>
                     </div>
                 </div>

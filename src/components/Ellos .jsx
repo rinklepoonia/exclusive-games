@@ -10,27 +10,25 @@ function Ellos() {
             <div className="container">
                 <h2 className='heading color-white mx-auto text-center pb-60'>Ellos eligieron apostar con nosotros</h2>
                 <div className="row justify-content-center">
-                    <div className='col-lg-4 col-6 position-relative card_hover mb-5'>
+                    <div className='col-lg-4 col-md-6 position-relative card_hover mb-5'>
                         <div className='position-relative black_layer'>
                             <img className='w-100 ' src={ImageEllos1} alt="ellos-img1" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
-                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center btn-hover'>
                                 <button className='btnn btn4style color-white '>Rcasinovip</button>
-
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 col-6 position-relative card_hover mb-5'>
+                    <div className='col-lg-4 col-md-6 position-relative card_hover mb-5'>
                         <div className='position-relative black_layer'>
                             <img className='w-100 ' src={ImageEllos2} alt="ellos-img2" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
-                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center btn-hover'>
                                 <button className='btnn btn4style color-white '>Rcasinovip</button>
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />
@@ -38,12 +36,12 @@ function Ellos() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 col-6 position-relative card_hover mb-5'>
+                    <div className='col-lg-4 col-md-6 position-relative card_hover mb-5'>
                         <div className='position-relative black_layer'>
                             <img className='w-100 ' src={ImageEllos3} alt="ellos-img3" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center'>
-                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                            <div className='position-relative cursor_pointer d-inline-flex justify-content-center align-items-center btn-hover'>
                                 <button className='btnn btn4style color-white '>Rcasinovip</button>
                                 <div className='btn-svg '>
                                     <BtnsvgWhite />

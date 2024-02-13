@@ -23,7 +23,7 @@ function Luxury() {
                     <div className='position-absolute bottom-20 right-19 d-lg-block d-none'>
                         <img src={Image4} alt="luxery-dice-img" />
                     </div>
-                    <div className='max-w-419 mx-auto text-center'>
+                    <div className='max-w-419 mx-auto text-center position-relative'>
                         <p className='sub-text color-white mx-auto text-center'>Luxury</p>
                         <p className='text max-w-391 text-center color-lightWhite mx-auto text-center'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
                         <h2 className='heading color-white mx-auto text-center'>$9000</h2>
@@ -56,18 +56,14 @@ function Luxury() {
                             <span>
                                 <Tiksvg />
                             </span>
-                            <p className='text color-white max-w-387 text-center ps-3'>Tiempo de creación 2 a 3 semanas</p>
+                            <p className='text color-white max-w-387 text-center ps-3 mb-0'>Tiempo de creación 2 a 3 semanas</p>
                         </div>
-
-                        <div className='position-relative mx-auto max-w-162 text-nowrap mt-5 btnn-hover cursor-pointer'>
-                            <button className='btnn btn1-style color-black'>Comprar ahora</button>
+                        <div className='position-relative mx-auto max-w-162 text-nowrap mt-5 btnn-hover cursor-pointer nav-btn-hover'>
+                            <button className='btnn btn1-style butn color-black'>Comprar ahora</button>
                             <span className='btn-svg'>
                                 <BtnSVG />
                             </span>
                         </div>
-
-
-
                     </div>
                 </div>
 

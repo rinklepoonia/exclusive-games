@@ -4,13 +4,13 @@ import { BtnSVG } from './Icons'
 
 function Elegirnos() {
     return (
-        <section id='por-que' className='elegirnos-bg py- 202 pt-241 pb-109 bg_white position-relative z-index'>
+        <section id='por-que' className='elegirnos-bg pt-241 pb-109 bg_white position-relative z-index py-50'>
             <div className="container">
-                <div className="row flex-lg-row  flex-column-reverse">
+                <div className="row flex-lg-row flex-column-reverse text_align">
                     <div className="col-lg-6">
-                        <h2 className='heading color-black'>Por qué elegirnos</h2>
+                        <h2 className='heading color-black pt-3'>Por qué elegirnos</h2>
                         <p className='text color-lightblack max-w-526'>Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos todo lo invertido en fichas en la moneda que elijas. En Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los juegos interactivos que más pide la gente. Con Exclusive Games empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.</p>
-                        <div className='position-relative max-w-162 btnn-hover cursor-pointer'>
+                        <div className='position-relative max-w-162 btnn-hover cursor-pointer mx_auto'>
                             <button className='btnn btn1-style color-black'>Empezar</button>
                             <span className='btn-svg'>
                                 <BtnSVG />

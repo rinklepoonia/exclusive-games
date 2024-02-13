@@ -4,15 +4,6 @@ import { BtnSVG } from './Icons'
 import { BtnsvgWhite } from './Icons'
 
 function Header() {
-    // function showNav() {
-    //     document.body.classList.toggle('overFlowHidden')
-    // onClick = { showNav() }
-    // }
-    // const menuIcon = document.getElementById("menuIcon");
-    // console.log(menuIcon)
-    // menuIcon.addEventListener("click", function () {
-    //     document.body.classList.toggle("overFlowHidden")
-    // })
     return (
         <header className='bg-img  min-vh-100 d-flex flex-column'>
             <div className='nav-bg py-24 w-100'>
@@ -24,11 +15,6 @@ function Header() {
                             <span></span>
                             <span></span>
                         </label>
-                        {/* <label className='menuIcon d-lg-none d-flex'>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label> */}
                         <input type='checkbox' id='menuIcon' hidden />
                         <ul className='d-flex gap-28 mb-0 menuList ps-0'>
                             <li><a href="" className='link color-white position-relative underline'>Hogar</a></li>
@@ -39,15 +25,14 @@ function Header() {
                             <li className='d-lg-none d-block'><button className='btnn btn-style color-white '>Acceso</button></li>
                         </ul>
                         <div className='position-relative d-lg-block d-none nav-btn-hover cursor-pointer'>
-                            <button className='btnn btn-style color-white nav-btn-hover'>Acceso</button>
-                            <div className='btn-svg '>
-                                <BtnsvgWhite />
+                            <button className='bt nn btn- style butn color-white'>Acceso</button>
+                            <div className='btn-svg'>
+                                <BtnsvgWhite/>
                             </div>
                         </div>
                     </nav>
                 </div>
             </div>
-
             <div className='flex-grow d-flex align-items-center'>
                 <div className="container">
                     <h1 className='main-heading color-white max-w-505 text-center mx-auto '>Exclusive Games. Pasión por ganar</h1>
@@ -60,7 +45,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-
         </header>
     )
 }
