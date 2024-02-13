@@ -24,40 +24,36 @@ function Footer() {
                             <In />
                         </div>
                     </div>
-
                     <div className="col-lg-7 mt-20">
                         <div className='row'>
                             <div className="col-md-4">
                                 <ul>
                                     <li className='btnn color-white mb-md-4'>Menú principal</li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite mb-3'>Hogar</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite'>Misión</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3'>Tragamonedas</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 text-nowrap'>Por qué elegirnos</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3'>Ofertas</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite mb-3 link-hover'>Hogar</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite link-hover'>Misión</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 link-hover'>Tragamonedas</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 text-nowrap link-hover'>Por qué elegirnos</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 link-hover'>Ofertas</a></li>
                                 </ul>
                             </div>
                             <div className="col-md-4">
                                 <ul>
                                     <li className='btnn color-white mb-md-4 text-nowrap'>Atención al cliente</li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite mb-3 text-nowrap'>¿Necesitas ayuda?</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite text-nowrap'>política de privacidad</a></li>
-                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 text-nowrap'>Términos de servicios</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite mb-3 text-nowrap link-hover'>¿Necesitas ayuda?</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite text-nowrap link-hover'>política de privacidad</a></li>
+                                    <li className='mb-12'><a href="" className='text color-lightWhite pb-3 text-nowrap link-hover'>Términos de servicios</a></li>
 
                                 </ul>
                             </div>
                             <div className="col-md-4">
                                 <ul>
-
                                     <li className='btnn color-white mb-md-4 text-nowrap'>Ponerse en contacto</li>
                                     <li className='mb-12 d-flex'>
-                                        <a href="" className='text color-lightWhite  d-flex align-items-center gap-2'><Mail />  juegosexclusivos@gmail.com</a>
+                                        <a href="" className='text color-lightWhite  d-flex align-items-center gap-2 link-hover'><Mail />  juegosexclusivos@gmail.com</a>
                                     </li>
-
                                     <li className='mb-12'>
-                                        <a href="tel:+496170961709" className='text color-lightWhite d-flex align-items-center gap-2'><Phone />
+                                        <a href="tel:+496170961709" className='text color-lightWhite d-flex align-items-center gap-2 link-hover'><Phone />
                                             (101)342-7873</a></li>
-
                                 </ul>
                             </div>
                         </div>

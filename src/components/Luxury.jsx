@@ -66,7 +66,6 @@ function Luxury() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     )
